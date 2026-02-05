@@ -233,3 +233,49 @@ ggml_tensor * torch_nn_functional_scaled_dot_product_attention_custom(
     auto x = ggml_mul_mat( ctx, value, attn_weight );
     return x;
 }
+
+/*****************************************************************************\
+ * torch.Tensor.chunk
+\*****************************************************************************/
+
+void torch_chunk_2( GraphContext & ctx,
+    ggml_tensor * x,
+    ggml_tensor ** left,
+    ggml_tensor ** right
+) {
+    assert( ( x->ne[0] % 2 ) == 0 );
+    *left = ggml_view_4d( ctx, x,
+        x->ne[0] / 2, x->ne[1], x->ne[2], x->ne[3],
+        x->nb[1], x->nb[2], x->nb[3],
+        0
+    );
+    *right = ggml_view_4d( ctx, x,
+        x->ne[0] / 2, x->ne[1], x->ne[2], x->ne[3],
+        x->nb[1], x->nb[2], x->nb[3],
+        x->nb[1] / 2
+    );
+}
+
+void torch_chunk_3( GraphContext & ctx,
+    ggml_tensor * x,
+    ggml_tensor ** left,
+    ggml_tensor ** mid,
+    ggml_tensor ** right
+) {
+    assert( ( x->ne[0] % 3 ) == 0 );
+    *left = ggml_view_4d( ctx, x,
+        x->ne[0] / 3, x->ne[1], x->ne[2], x->ne[3],
+        x->nb[1], x->nb[2], x->nb[3],
+        0
+    );
+    *mid = ggml_view_4d( ctx, x,
+        x->ne[0] / 3, x->ne[1], x->ne[2], x->ne[3],
+        x->nb[1], x->nb[2], x->nb[3],
+        x->nb[1] / 3
+    );
+    *right = ggml_view_4d( ctx, x,
+        x->ne[0] / 3, x->ne[1], x->ne[2], x->ne[3],
+        x->nb[1], x->nb[2], x->nb[3],
+        x->nb[1] * 2 / 3
+    );
+}

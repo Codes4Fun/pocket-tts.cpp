@@ -36,7 +36,7 @@ void moshi_get_timestep_embedding_new(
     ts = ggml_reshape_4d( ctx, ts, 1, 1, T, 1 );
     ts = ggml_repeat_4d( ctx, ts, D_half, 1, T, 1 );
     auto ds = ctx.arange( 0, (float)D_half, 1 );
-    auto freqs = ggml_exp( ctx, ggml_scale( ctx, ds, -logf(max_period) / D_half ) );
+    auto freqs = ggml_exp( ctx, ggml_scale( ctx, ds, -logf((float)max_period) / D_half ) );
     auto rads = ggml_mul( ctx, ts, freqs );
     tsemb.rotr = ggml_cos( ctx, rads );
     tsemb.roti = ggml_sin( ctx, rads );

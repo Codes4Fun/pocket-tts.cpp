@@ -1,7 +1,6 @@
 #pragma once
 
 moshi_streaming_transformer_t * ptts_mimi_decoder_transformer_alloc_default() {
-    // "mimi.decoder_transformer.transformer."
     auto mimi_decoder__transformer = new moshi_streaming_transformer_t;
     mimi_decoder__transformer->context = 250;
     mimi_decoder__transformer->weights_per_step = 0;

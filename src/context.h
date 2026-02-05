@@ -6,7 +6,8 @@
 
 #include <random>
 std::random_device rd;
-std::mt19937 gen(rd());
+unsigned int random_seed = rd();
+std::mt19937 gen(random_seed);
 std::exponential_distribution<> ed(1);
 std::normal_distribution nd{0.0, 1.0};
 
@@ -495,11 +496,11 @@ class GraphContext {
             switch ( dist.type ) {
             case dist_exponential:
                 for (int64_t i = 0; i < n; i++)
-                    data[i] = ed(gen) / dist.params[0];//-logf(rand() / (float)RAND_MAX) / dist.lambd;
+                    data[i] = (float)ed(gen) / dist.params[0];//-logf(rand() / (float)RAND_MAX) / dist.lambd;
                 break;
             case dist_normal_:
                 for (int64_t i = 0; i < n; i++)
-                    data[i] = nd(gen) * dist.params[1] + dist.params[0];
+                    data[i] = (float)nd(gen) * dist.params[1] + dist.params[0];
                 break;
             }
 #endif
