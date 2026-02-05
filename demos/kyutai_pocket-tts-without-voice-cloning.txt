@@ -1,0 +1,72 @@
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/alba.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/alba.safetensors
+ checksum=sha-256=ad234695323e4030336b6afc8a050c97e3110603e11ecd8226d9562488300a50
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/azelma.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/azelma.safetensors
+ checksum=sha-256=ef33fad34437cb187d2702f0a946d8ba7a01efdb8efbc8088c770d49c181ba73
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/cosette.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/cosette.safetensors
+ checksum=sha-256=ca8926c4f234afa9d722173967e7bebdc6269538ca5910d65f41c3c1317717d3
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/eponine.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/eponine.safetensors
+ checksum=sha-256=bb31940f62da665391de139da2e57d740757df26b73d7ec24152c78a3b8ac0c5
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/fantine.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/fantine.safetensors
+ checksum=sha-256=b6918a2ece002d2d9037ff53c4ea38730175e8798786658b0958443edf49d355
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/javert.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/javert.safetensors
+ checksum=sha-256=2e857904ee76657e083b0e92664d21bd133e37df320af6eb04f752e679422d91
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/jean.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/jean.safetensors
+ checksum=sha-256=329530f87ce503061acefca8669300963420ff97e43647a326aa46bd987b983c
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/embeddings/marius.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/embeddings/marius.safetensors
+ checksum=sha-256=33f75e45fac0005630671f4b1bb632d51b6a083b18417de94855bbd7596a0630
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/README.md
+ out=kyutai/pocket-tts-without-voice-cloning/README.md
+ checksum=sha-1=c49c34a82a3bfaaaf3d6ac0970dbf6c9b7c92a35
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/remove_voice_cloning_and_push.py
+ out=kyutai/pocket-tts-without-voice-cloning/remove_voice_cloning_and_push.py
+ checksum=sha-1=ddb9e9896d53a2d54c4628e7e913ccc9bddbc826
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/tokenizer.model
+ out=kyutai/pocket-tts-without-voice-cloning/tokenizer.model
+ checksum=sha-256=d461765ae179566678c93091c5fa6f2984c31bbe990bf1aa62d92c64d91bc3f6
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
+https://huggingface.co/kyutai/pocket-tts-without-voice-cloning/resolve/fbf82802feb1f92664f3bcf6a0f01295a678853c/tts_b6369a24.safetensors
+ out=kyutai/pocket-tts-without-voice-cloning/tts_b6369a24.safetensors
+ checksum=sha-256=58aa704a88faad35f22c34ea1cb55c4c5629de8b8e035c6e4936e2673dc07617
+ auto-file-renaming=false
+ check-integrity=true
+ allow-overwrite=false
